@@ -1,0 +1,23 @@
+// colors
+$white: #fff;
+$gray: #c0c0c0;
+$darkgray: #808080;
+
+// bevels
+.bevel-up {
+  border-top-color: $white;
+  border-left-color: $white;
+  border-right-color: $darkgray;
+  border-bottom-color: $darkgray;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.bevel-down {
+  border-bottom-color: $white;
+  border-right-color: $white;
+  border-left-color: $darkgray;
+  border-top-color: $darkgray;
+  border-width: 4px;
+  border-style: solid;
+}
